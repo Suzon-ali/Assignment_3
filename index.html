@@ -9,11 +9,15 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script
       src="https://kit.fontawesome.com/de36bbb551.js"
       crossorigin="anonymous"
     ></script>
+
     <script>
       tailwind.config = {
         theme: {
@@ -26,12 +30,15 @@
               gray2: "#f8f8f8",
               extragray: "#13131633",
             },
+            fontFamily: {
+              'Manrope': ['Manrope', 'sans-serif'],
+            },
           },
         },
       };
     </script>
   </head>
-  <body class="bg-white text-black">
+  <body class="bg-white text-black font-Manrope">
     <!--Header -->
     <header class="max-w-[1170px] mx-auto pe-2">
       <div class="navbar px-0">
@@ -206,7 +213,7 @@
           <div
             class="py-8 space-y-2 border-t-2 border-b-2 border-dashed border-extragray w-full mx-auto"
           >
-            <h1 class="font-bold text-semiblack text-center text-2xl">
+            <h1 class="font-extrabold text-semiblack text-center text-2xl">
               Professional Hockeys Club
             </h1>
             <p class="text-center text-gray px-3 lg:px-40">
@@ -276,11 +283,11 @@
         <div
           class="py-8 space-y-2 border-t-2 border-b-2 border-dashed border-extragray w-full mx-auto"
         >
-          <h1 class="font-bold text-semiblack text-center text-2xl">
+          <h1 class="font-extrabold text-semiblack text-center text-2xl">
             Program Sections
           </h1>
           <p class="text-center text-gray px-3 lg:px-40">
-            Explore the diverse program sections at [Your Club's Name], meticulously crafted to cater to every hockey enthusiast. 
+            Explore the diverse program sections at Hockey's Club, meticulously crafted to cater to every hockey enthusiast. 
           </p>
         </div>
         <div class="grid col-span-2 row-span-2 gap-3">
@@ -290,7 +297,7 @@
             <div
               class="absolute w-full h-full bg-black/40 rounded-xl space-y-2 px-7 pb-7 justify-end flex flex-col"
             >
-              <h3 class="text-white text-2xl font-bold">Junior Program</h3>
+              <h3 class="text-white text-2xl font-extrabold">Junior Program</h3>
               <p class="text-white">
                 Nurture young talents in our Junior Program, providing a fun and educational environment for budding players to learn and grow in the exciting world of hockey.
               </p>
@@ -307,7 +314,7 @@
             <div
               class="absolute w-full h-full bg-black/40 rounded-xl space-y-2 px-7 pb-7 justify-end flex flex-col"
             >
-              <h3 class="text-white text-2xl font-bold">Teenager Program</h3>
+              <h3 class="text-white text-2xl font-extrabold">Teenager Program</h3>
               <p class="text-white">
                 Empower teenage players in our specialized program, blending skill development and mentorship to prepare them for the challenges and opportunities of competitive hockey.
               </p>
@@ -324,7 +331,7 @@
             <div
               class="absolute w-full h-full bg-black/40 rounded-xl space-y-2 px-7 pb-7 justify-end flex flex-col"
             >
-              <h3 class="text-white text-2xl font-bold">Professional Program
+              <h3 class="text-white text-2xl font-extrabold">Professional Program
               </h3>
               <p class="text-white">
                 Designed for elite athletes, our Professional Program offers advanced training, strategic development, and a pathway to success at the highest levels of competitive hockey.
@@ -343,7 +350,7 @@
         <div
           class="py-8 space-y-2 border-t-2 border-b-2 border-dashed border-extragray w-full mx-auto"
         >
-          <h1 class="font-bold text-semiblack text-center text-2xl">
+          <h1 class="font-extrabold text-semiblack text-center text-2xl">
             Our New product
           </h1>
           <p class="text-center text-gray px-3 lg:px-40">
@@ -376,7 +383,7 @@
                   ><i class="fa-regular fa-heart"></i><span>200</span></span
                 >
               </div>
-              <h2 class="text-xl font-bold">
+              <h2 class="text-xl font-extrabold">
                 Jersey for Hockey's</h2>
               <p class="text-gray">
                 Premium jerseys for ultimate comfort, showcasing team pride on the rink.
@@ -414,7 +421,7 @@
                   ><i class="fa-regular fa-heart"></i><span>200</span></span
                 >
               </div>
-              <h2 class="text-xl font-bold">WorldCup Flags Football</h2>
+              <h2 class="text-xl font-extrabold">WorldCup Flags Football</h2>
               <p class="text-gray">
                 Express global football passion with vibrant World Cup Flags Football collection.
               </p>
@@ -451,7 +458,7 @@
                   ><i class="fa-regular fa-heart"></i><span>200</span></span
                 >
               </div>
-              <h2 class="text-xl font-bold">WorldCup Flags Football</h2>
+              <h2 class="text-xl font-extrabold">WorldCup Flags Football</h2>
               <p class="text-gray">
                 Express global football passion with vibrant World Cup Flags Football collection.
               </p>
@@ -488,7 +495,7 @@
                   ><i class="fa-regular fa-heart"></i><span>200</span></span
                 >
               </div>
-              <h2 class="text-xl font-bold">Cap for Hockeys</h2>
+              <h2 class="text-xl font-extrabold">Cap for Hockeys</h2>
               <p class="text-gray">
                 Stylish hockey caps – the perfect accessory for dedicated hockey fans.
               </p>
@@ -525,7 +532,7 @@
                   ><i class="fa-regular fa-heart"></i><span>200</span></span
                 >
               </div>
-              <h2 class="text-xl font-bold">Jersey for Hockey's</h2>
+              <h2 class="text-xl font-extrabold">Jersey for Hockey's</h2>
               <p class="text-gray">
                 Premium jerseys for ultimate comfort, showcasing team pride on the rink.
               </p>
@@ -562,7 +569,7 @@
                   ><i class="fa-regular fa-heart"></i><span>200</span></span
                 >
               </div>
-              <h2 class="text-xl font-bold">Helmet for Hockeys:
+              <h2 class="text-xl font-extrabold">Helmet for Hockeys:
               </h2>
               <p class="text-gray">
                 Safety meets style in our hockey helmets, ensuring confident play.
@@ -582,7 +589,7 @@
         <div
           class="py-8 space-y-2 border-t-2 border-b-2 border-dashed border-extragray w-full mx-auto"
         >
-          <h1 class="font-bold text-semiblack text-center text-2xl">
+          <h1 class="font-extrabold text-semiblack text-center text-2xl">
             Clients Question
           </h1>
           <p class="text-center text-gray px-3 lg:px-40">
@@ -594,7 +601,7 @@
           <div class="w-full lg:w-1/2 p-4 space-y-2">
             <div class="collapse collapse-plus border-b border-extragray rounded-none ">
               <input type="radio" name="my-accordion-3" checked="checked" />
-              <div class="collapse-title text-xl font-medium">
+              <div class="collapse-title text-xl font-bold">
                 Our Equipment
               </div>
               <div class="collapse-content">
@@ -604,7 +611,7 @@
             </div>
             <div class="collapse collapse-plus border-b border-extragray rounded-none ">
                 <input type="radio" name="my-accordion-3" checked="checked" />
-                <div class="collapse-title text-xl font-medium">
+                <div class="collapse-title text-xl font-bold">
                   Hockey Training
                 </div>
                 <div class="collapse-content">
@@ -613,7 +620,7 @@
               </div>
               <div class="collapse collapse-plus border-b border-extragray rounded-none ">
                 <input type="radio" name="my-accordion-3" checked="checked" />
-                <div class="collapse-title text-xl font-medium">
+                <div class="collapse-title text-xl font-bold">
                   Private Lessons
                 </div>
                 <div class="collapse-content">
@@ -622,7 +629,7 @@
               </div>
               <div class="collapse collapse-plus border-b border-extragray rounded-none ">
                 <input type="radio" name="my-accordion-3" checked="checked" />
-                <div class="collapse-title text-xl font-medium">
+                <div class="collapse-title text-xl font-bold">
                   Sky Touring
                 </div>
                 <div class="collapse-content">
@@ -632,7 +639,7 @@
 
               <div class="collapse collapse-plus border-b border-extragray rounded-none ">
                 <input type="radio" name="my-accordion-3" checked="checked" />
-                <div class="collapse-title text-xl font-medium">
+                <div class="collapse-title text-xl font-bold">
                  Booking
                 </div>
                 <div class="collapse-content">
@@ -642,7 +649,7 @@
 
               <div class="collapse collapse-plus border-b border-extragray rounded-none ">
                 <input type="radio" name="my-accordion-3" checked="checked" />
-                <div class="collapse-title text-xl font-medium">
+                <div class="collapse-title text-xl font-bold">
                   Pricings
                 </div>
                 <div class="collapse-content">
@@ -652,7 +659,7 @@
 
               <div class="collapse collapse-plus border-b border-extragray rounded-none ">
                 <input type="radio" name="my-accordion-3" checked="checked" />
-                <div class="collapse-title text-xl font-medium">
+                <div class="collapse-title text-xl font-bold">
                   Hockey Training
                 </div>
                 <div class="collapse-content">
@@ -667,7 +674,7 @@
         <div
           class="py-8 space-y-2 border-t-2 border-b-2 border-dashed border-extragray w-full mx-auto"
         >
-          <h1 class="font-bold text-semiblack text-center text-2xl">
+          <h1 class="font-extrabold text-semiblack text-center text-2xl">
             Get in Touch
           </h1>
           <p class="text-center text-gray px-3 lg:px-40">
@@ -701,23 +708,23 @@
            
             <div class="lg:w-3/5 grid grid-cols-2 gap-4 pt-4 lg:pt-0">
                 <div class="flex flex-col col-span-2 lg:col-span-1 space-y-2">
-                    <label for="">Your Name</label>
+                    <label  class="font-bold"  for="">Your Name</label>
                     <input class="bg-gray2 px-4 py-3 text-gray-300 rounded-xl placeholder:text-extragray" type="text" name="name" id="" placeholder="Enter your full Name">
                 </div>
                 <div class="flex flex-col col-span-2  lg:col-span-1 space-y-2">
-                    <label for="">Your Email</label>
+                    <label  class="font-bold" for="">Your Email</label>
                     <input class="bg-gray2 px-4 py-3 text-gray-300 rounded-xl placeholder:text-extragray" type="email" name="name" id="" placeholder="Enter your email">
                 </div>
                 <div class="flex flex-col col-span-2  lg:col-span-1 space-y-2">
-                    <label for="">Subject</label>
+                    <label class="font-bold"  for="">Subject</label>
                     <input class="bg-gray2 px-4 py-3 text-gray-300 rounded-xl placeholder:text-extragray" type="text" name="name" id="" placeholder="Enter your subject">
                 </div>
                 <div class="flex flex-col col-span-2  lg:col-span-1 space-y-2">
-                    <label for="">Phone Number</label>
+                    <label  class="font-bold" for="">Phone Number</label>
                     <input class="bg-gray2 px-4 py-3 text-gray-300 rounded-xl placeholder:text-extragray" type="number" name="name" id="" placeholder="Enter your phone number">
                 </div>
                 <div class="flex flex-col col-span-2  lg:col-span-2 space-y-2 ">
-                    <label for="">Message</label>
+                    <label  class="font-bold" for="">Message</label>
                     <textarea class="bg-gray2 f-full rounded-xl placeholder:text-extragray p-4" name="message" id="" cols="30" rows="15" placeholder="Write you message"></textarea>
                 </div>
                 <div class="col-span-2">
@@ -727,7 +734,7 @@
             
         </div>
         <div class="bg-gray2 p-4 rounded-xl space-y-3">
-                <h2 class="font-bold text-2xl text-center">Social Media</h2>
+                <h2 class="font-extrabold text-2xl text-center">Social Media</h2>
                 <div>
                     <ul class="flex justify-center items-center gap-4">
                         <li class="cursor-pointer"><a href=""></a><i class="fa-brands fa-twitter text-2xl"></i></li>
@@ -744,7 +751,7 @@
     <footer class=" p-10  bg-semiblack text-base-content mt-10">
        <div class="footer max-w-[1170px] mx-auto grid grid-cols-4 place-items-center">
         <aside class="col-span-4 lg:col-span-1 flex flex-col justify-center items-center lg:items-start">
-            <h3 class="font-bold text-3xl text-white">Get In Touch</h3>
+            <h3 class="font-extrabold text-3xl text-white">Get In Touch</h3>
             <p class="text-white/60 font-normal text-center lg:text-start">For inquiries, partnerships, or any assistance, don't hesitate to reach out. Contact us through email, phone, or social media. We value your connection and look forward to hearing from you.</p>
             <div class="space-y-3 flex flex-col justify-center items-center lg:items-start">
               <div class="space-x-2">
